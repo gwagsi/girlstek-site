@@ -1,94 +1,70 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby x Start Bootstrap Creative
-</h1>
+# Getting Started with Create React App
 
-Gatsby implementation of [Start Bootstrap's Creative](https://startbootstrap.com/previews/creative/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[**Demo Website**](https://johnjkerr.github.io/gatsby-creative)
+## Available Scripts
 
-## ✨ Features
+In the project directory, you can run:
 
-- [React Bootstrap](https://react-bootstrap.github.io)
-- [Start Bootstrap Creative](https://startbootstrap.com/previews/creative)
-- [GitHub Actions](https://github.com/features/actions)
-- [React Scrollspy](https://github.com/makotot/react-scrollspy)
+### `yarn start`
 
-## 👀 Template Differences
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Efforts have been made to keep the implementation as close to the source template as possible, however in adapting from jQuery to React there have been some changes.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-- Scrolling to page sections uses the browser [`scrollTo`](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo) function rather than a jQuery animation. This means that [browsers which do not support `scrollTo`](https://caniuse.com/#search=scrollTo) are not animated.
-- The portfolio carousel uses React Bootstrap functionality for modal and carousel rather than Magnific Popup.
+### `yarn test`
 
-## 🚀 Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1.  **Create a Gatsby site.**
+### `yarn build`
 
-    Use the Gatsby CLI to create a new site, specifying the starter project.
-    
-    ```sh
-    gatsby new project-name https://github.com/JohnJKerr/gatsby-creative
-    ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2.  **Start developing.**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-    Navigate into your new site’s directory and start it up.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-    ```sh
-    cd project-name
-    gatsby develop
-    ```
+### `yarn eject`
 
-3.  **Open the source code and start editing!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-    Your site is now running at `http://localhost:8000`!
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-    Open the `project-name` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## 🎓 Learning Gatsby
+## Learn More
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+### Code Splitting
 
-## 💫 Deploy
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JohnJKerr/gatsby-creative)
+### Analyzing the Bundle Size
 
-### GitHub Actions x GitHub Pages
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-This project also contains an example of [GitHub Actions](https://github.com/features/actions) deployment to [GitHub Pages](https://pages.github.com). View the [`deploy.yml`](https://github.com/JohnJKerr/gatsby-creative/blob/master/.github/workflows/deploy.yml) for the build definition.
+### Making a Progressive Web App
 
-The build process deploys to a folder rather than the root, and therefore uses the `--pages-prefix` flag in the build step and `pathPrefix: '/gatsby-creative'` in [`gatsby-config.js`](https://github.com/JohnJKerr/gatsby-creative/blob/master/gatsby-config.js).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-#### Access Token
+### Advanced Configuration
 
-If you wish to use the GitHub Actions workflow to deploy to GitHub Pages you will need to add an `ACCESS_TOKEN` secret to your repository
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Go to https://github.com/settings/tokens to generate a Personal Access Token and add it to your account. The token will need the following permissions:
+### Deployment
 
-- repo
-- read:packages
-- write:packages
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Make a copy of your token as you will not be able to access it again.
+### `yarn build` fails to minify
 
-Return to your repository, go to settings and add a secret with the name `ACCESS_TOKEN`.
-
-The Action will then deploy your site to `{your-github-pages-url}/{your-repository}`.
- 
-#### Not Using GitHub Pages?
-
-If you do not wish to use GitHub Pages, simply remove the `/.github/workflows/deploy.yml` file.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
